@@ -2,6 +2,8 @@
 /**
  * Сброс стилей
  **/
+@import url("https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700|Quicksand:400,700&display=swap");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -54,8 +56,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
  * Основные стили
  **/
 body {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 16px; }
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(31, 32, 65, 0.75); }
 
 .container {
   min-width: 320px;
@@ -64,11 +70,29 @@ body {
   box-sizing: border-box;
   margin: 0 auto; }
 
-.wrap {
-  min-width: 320px;
-  max-width: 1200px;
-  padding: 0 15px;
-  box-sizing: border-box;
-  margin: 0 auto; }
+h1 {
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  color: #1F2041; }
+
+h2 {
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 24px;
+  color: #1F2041; }
+
+h3 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+  text-transform: uppercase; }
 
 /*# sourceMappingURL=style.css.map */
