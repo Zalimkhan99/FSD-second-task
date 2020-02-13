@@ -57,11 +57,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
  **/
 body {
   font-family: Montserrat;
-  font-style: normal;
-  font-weight: normal;
+  font-weight: bold;
   font-size: 14px;
   line-height: 24px;
-  color: rgba(31, 32, 65, 0.75); }
+  color: rgba(31, 32, 65, 0.75);
+  text-align: left;
+  font-style: normal;
+  text-transform: none; }
 
 .container {
   min-width: 320px;
@@ -72,27 +74,32 @@ body {
 
 h1 {
   font-family: Quicksand;
-  font-style: normal;
   font-weight: bold;
   font-size: 24px;
   line-height: 30px;
-  color: #1F2041; }
+  color: #1F2041;
+  text-align: left;
+  font-style: normal;
+  text-transform: none; }
 
 h2 {
   font-family: Quicksand;
-  font-style: normal;
   font-weight: bold;
   font-size: 19px;
   line-height: 24px;
-  color: #1F2041; }
+  color: #1F2041;
+  text-align: left;
+  font-style: normal;
+  text-transform: none; }
 
 h3 {
   font-family: Montserrat;
-  font-style: normal;
   font-weight: bold;
   font-size: 12px;
   line-height: 15px;
-  /* identical to box height */
+  color: #1F2041;
+  text-align: left;
+  font-style: normal;
   text-transform: uppercase; }
 
 /*# sourceMappingURL=style.css.map */

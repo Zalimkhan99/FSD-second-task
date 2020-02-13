@@ -1,8 +1,63 @@
+
+
+// для центрирования блоков
 @mixin min-max($min-width, $max-width, $padding) {
   min-width: $min-width;
   max-width: $max-width;
   padding: 0 $padding;
   box-sizing: border-box;
   margin: 0 auto;
+}
+//стили заголовков
+@mixin font-styles($font-family, $font-weight, $font-size, $line-height, $color, $text-transform:none, $text-align:left){
+  font-family: $font-family;
+  font-weight: $font-weight;
+  font-size: $font-size;
+  line-height: $line-height;
+  color: $color;
+  text-align: $text-align;
+  font-style: normal;
+  text-transform:  $text-transform;
+}
+// эелемент формы "Текстовое поле"
+@mixin text-field($width, $color: $dark_shade_25, $border: 1px solid $dark_shade_25, $left: 141px, $top: 163px){
+  width: $width;
+  color: $color;
+  border: $border;
+  left: $left;
+  top: $top;
+
+  height: 44px;
+  position: absolute;
+  box-sizing: border-box;
+  border-radius: 4px;
+  background: #FFFFFF;
+}
+// эелемент формы "поле dropdown"
+@mixin dropdown($width, $color, $border: 1px solid $dark_shade_25, $left: 141px, $top: 163px) {
+  width: $width;
+  color: $color;
+  border: $border;
+  left: $left;
+  top: $top;
+
+  height: 44px;
+  position: absolute;
+  box-sizing: border-box;
+  border-radius: 4px;
+  background: #FFFFFF;
+}
+
+@mixin button($width, $height, $background, $opacity: 1, $top:260px, $left:980px ){
+  width: $width;
+  height: $height;
+  background: $background;
+  opacity: $opacity;
+  top: $top;
+  left: $left;
+
+  position: absolute;
+  border-radius: 22px;
+
 }
 

@@ -3,66 +3,27 @@
  **/
 
 body {
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
-  color: $dark_shade_75;
+  @include font-styles(Montserrat, bold, 14px, 24px, $dark_shade_75);
 }
 
 .container {
   @include min-max(320px, 100%, 0);
 }
 
-//.wrap {
-////  @include min-max(320px, 1200px, 15px);
-////}
 
 h1{
-  //position: absolute;
-  //width: 336px;
-  //height: 60px;
-  //left: 913px;
-  //top: 145px;
 
-  font-family: Quicksand;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 30px;
-  color: $dark_shade;
+  @include font-styles(Quicksand, bold, 24px, 30px, $dark_shade);
+
 }
 
 h2{
-  //position: absolute;
-  //width: 336px;
-  //height: 60px;
-  //left: 913px;
-  //top: 145px;
-
-  font-family: Quicksand;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 19px;
-  line-height: 24px;
-  color: $dark_shade;
+  @include font-styles(Quicksand, bold, 19px, 24px, $dark_shade);
 }
 
 h3{
-  //position: absolute;
-  //width: 186px;
-  //height: 15px;
-  //left: 913px;
-  //top: 353px;
+  @include font-styles(Montserrat, bold, 12px, 15px, $dark_shade, uppercase);
 
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 12px;
-  line-height: 15px;
-  /* identical to box height */
-  text-transform: uppercase;
 }
 
 
