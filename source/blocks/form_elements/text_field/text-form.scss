@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+@import "../../../styles_global/reset";
+@import "../../../styles_global/variables";
+@import "../../../styles_global/fonts";
+@import "../../../styles_global/mixins";
+@import "../../../styles_global/core";
+.text-field__email-form {
+
+  @include wrapper(320px, 50px);
+    h3{
+      margin-bottom: 5px;
+    }
+    .email-form{
+      @include text-field(320px);
+      padding: 15px 13px;
+      &:hover, &:focus{
+        color: $dark_shade_75;
+        border: 1px solid $dark_shade_50;
+        padding: 12px 0 18px 15px;
+      }
+    }
+
+}
+

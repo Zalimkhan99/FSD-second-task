@@ -102,4 +102,14 @@ h3 {
   font-style: normal;
   text-transform: uppercase; }
 
+body, p, input {
+  font-family: Montserrat;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(31, 32, 65, 0.75);
+  text-align: left;
+  font-style: normal;
+  text-transform: none; }
+
 /*# sourceMappingURL=style.css.map */

@@ -4,12 +4,13 @@
     <list default="true" id="8827c16a-7f1e-4cd0-b8c6-79ff64f00188" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/blocks/footer/.sass-cache/e14c17d98338192d30195410e3b06144e4456fde/_core.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/source/blocks/footer/.sass-cache/e14c17d98338192d30195410e3b06144e4456fde/_core.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/blocks/footer/.sass-cache/e14c17d98338192d30195410e3b06144e4456fde/_mixins.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/blocks/footer/.sass-cache/e14c17d98338192d30195410e3b06144e4456fde/_mixins.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/source/blocks/footer/.sass-cache/e14c17d98338192d30195410e3b06144e4456fde/_mixins.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/blocks/footer/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/source/blocks/footer/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/blocks/footer/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/source/blocks/footer/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/blocks/header/.sass-cache/e14c17d98338192d30195410e3b06144e4456fde/_core.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/source/blocks/header/.sass-cache/e14c17d98338192d30195410e3b06144e4456fde/_core.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/blocks/header/.sass-cache/e14c17d98338192d30195410e3b06144e4456fde/_mixins.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/source/blocks/header/.sass-cache/e14c17d98338192d30195410e3b06144e4456fde/_mixins.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/blocks/header/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/source/blocks/header/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/blocks/header/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/source/blocks/header/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/blocks/header/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/blocks/header/style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/styles_global/_core.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/styles_global/_core.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/styles_global/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/styles_global/_mixins.scss" afterDir="false" />
     </list>
@@ -92,7 +93,11 @@
       <workItem from="1581356273825" duration="1615000" />
       <workItem from="1581489099186" duration="1919000" />
       <workItem from="1581581653733" duration="5949000" />
-      <workItem from="1581605899519" duration="2488000" />
+      <workItem from="1581605899519" duration="11197000" />
+      <workItem from="1581691240090" duration="3640000" />
+      <workItem from="1581845621058" duration="1894000" />
+      <workItem from="1581849067510" duration="689000" />
+      <workItem from="1582621684670" duration="8885000" />
     </task>
     <servers />
   </component>

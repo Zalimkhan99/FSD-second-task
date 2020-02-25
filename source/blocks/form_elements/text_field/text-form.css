@@ -112,4 +112,27 @@ body, p, input {
   font-style: normal;
   text-transform: none; }
 
-/*# sourceMappingURL=style.css.map */
+.text-field__email-form {
+  width: 320px;
+  height: 50px;
+  position: absolute;
+  top: 0px;
+  left: 0px; }
+  .text-field__email-form h3 {
+    margin-bottom: 5px; }
+  .text-field__email-form .email-form {
+    width: 320px;
+    color: rgba(31, 32, 65, 0.25);
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    height: 44.01px;
+    position: absolute;
+    box-sizing: border-box;
+    border-radius: 4px;
+    background: #FFFFFF;
+    padding: 15px 13px; }
+    .text-field__email-form .email-form:hover, .text-field__email-form .email-form:focus {
+      color: rgba(31, 32, 65, 0.75);
+      border: 1px solid rgba(31, 32, 65, 0.5);
+      padding: 12px 0 18px 15px; }
+
+/*# sourceMappingURL=text-form.css.map */
