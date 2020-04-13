@@ -2,19 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8827c16a-7f1e-4cd0-b8c6-79ff64f00188" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/source/blocks/form_elements/dropdonw-visitor/test.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/FSD-2 задание.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/FSD-2 задание.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/blocks/footer/.sass-cache/e14c17d98338192d30195410e3b06144e4456fde/_core.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/source/blocks/footer/.sass-cache/e14c17d98338192d30195410e3b06144e4456fde/_core.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/blocks/footer/.sass-cache/e14c17d98338192d30195410e3b06144e4456fde/_mixins.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/source/blocks/footer/.sass-cache/e14c17d98338192d30195410e3b06144e4456fde/_mixins.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/blocks/footer/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/source/blocks/footer/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/blocks/footer/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/source/blocks/footer/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/blocks/header/.sass-cache/e14c17d98338192d30195410e3b06144e4456fde/_core.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/source/blocks/header/.sass-cache/e14c17d98338192d30195410e3b06144e4456fde/_core.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/blocks/header/.sass-cache/e14c17d98338192d30195410e3b06144e4456fde/_mixins.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/source/blocks/header/.sass-cache/e14c17d98338192d30195410e3b06144e4456fde/_mixins.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/blocks/header/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/source/blocks/header/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/blocks/header/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/source/blocks/header/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/styles_global/_core.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/styles_global/_core.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/styles_global/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/styles_global/_mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/in-install.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/in-install.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/in-publish.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/in-publish.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/node-gyp.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/node-gyp.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/node-sass.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/node-sass.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/nopt.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/nopt.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/not-in-install.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/not-in-install.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/not-in-publish.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/not-in-publish.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/sassgraph.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/sassgraph.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/strip-indent.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/strip-indent.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-gyp/gyp/gyp.bat" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/node-gyp/gyp/gyp.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-gyp/gyp/samples/samples.bat" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/node-gyp/gyp/samples/samples.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-gyp/node_modules/.bin/semver.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/node-gyp/node_modules/.bin/semver.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/true-case-path/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/true-case-path/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/true-case-path/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/true-case-path/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/true-case-path/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/true-case-path/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/blocks/footer/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/source/blocks/footer/index.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/blocks/form_elements/text_field/text-form.pug" beforeDir="false" afterPath="$PROJECT_DIR$/source/blocks/form_elements/text_field/text-form.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/blocks/form_elements/text_field/text-form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/blocks/form_elements/text_field/text-form.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/styles_global/_fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/styles_global/_fonts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/styles_global/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/styles_global/_variables.scss" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,27 +50,22 @@
   </component>
   <component name="ProjectId" id="1XQAfS65UJDTi2eAESY4buEm0IO" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="C:/Ruby27-x64/bin/scss.bat" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/source/blocks/form_elements/dropdonw-visitor/dropdown-visitor.scss" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/source/blocks/form_elements/dropdonw-visitor/dropdown-visitor.scss" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.dev">
     <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -64,6 +76,18 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="run" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="npm.run" />
+      <item itemvalue="npm.dev" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="npm.dev" />
@@ -98,6 +122,18 @@
       <workItem from="1581845621058" duration="1894000" />
       <workItem from="1581849067510" duration="689000" />
       <workItem from="1582621684670" duration="8885000" />
+      <workItem from="1584176664858" duration="27000" />
+      <workItem from="1584176714173" duration="106000" />
+      <workItem from="1584269913171" duration="2153000" />
+      <workItem from="1584351263676" duration="5826000" />
+      <workItem from="1584443981421" duration="9213000" />
+      <workItem from="1584522984706" duration="2635000" />
+      <workItem from="1585041695680" duration="64000" />
+      <workItem from="1585135974924" duration="40000" />
+      <workItem from="1585590505929" duration="156000" />
+      <workItem from="1585590828333" duration="9000" />
+      <workItem from="1585742241931" duration="665000" />
+      <workItem from="1585743287156" duration="593000" />
     </task>
     <servers />
   </component>
@@ -116,5 +152,27 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="192" y="0" key="#File_Watchers" timestamp="1585742599006">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="192" y="0" key="#File_Watchers/1600.-87.1920.1040/0.0.1600.860@0.0.1600.860" timestamp="1585742599006" />
+    <state x="192" y="0" key="#Notifications" timestamp="1585742636944">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="192" y="0" key="#Notifications/1600.-87.1920.1040/0.0.1600.860@0.0.1600.860" timestamp="1585742636944" />
+    <state x="254" y="45" width="1092" height="815" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585743332328">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="254" y="45" width="1092" height="815" key="#com.intellij.execution.impl.EditConfigurationsDialog/1600.-87.1920.1040/0.0.1600.860@0.0.1600.860" timestamp="1585743332328" />
+    <state x="92" y="92" width="1416" height="676" key="DiffContextDialog" timestamp="1585743634849">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="92" y="92" width="1416" height="676" key="DiffContextDialog/1600.-87.1920.1040/0.0.1600.860@0.0.1600.860" timestamp="1585743634849" />
+    <state x="480" y="69" key="FileChooserDialogImpl" timestamp="1585743460274">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="480" y="69" key="FileChooserDialogImpl/1600.-87.1920.1040/0.0.1600.860@0.0.1600.860" timestamp="1585743460274" />
   </component>
 </project>

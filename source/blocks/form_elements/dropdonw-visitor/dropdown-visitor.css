@@ -1,0 +1,83 @@
+.dropdown__position {
+  position: relative;
+}
+
+.dropdown__name {
+  width: 293px;
+  height: 16px;
+  border: 1px solid black;
+  padding: 12px 13px 15px;
+}
+
+.dropdown-icon {
+  position: absolute;
+  padding: 20.5px 15.5px 16px 16px;
+  bottom: 1%;
+  left: 275px;
+}
+
+.dropdown-list__item {
+  padding: 13px 0 15px 15px;
+}
+
+.dropdown__list {
+  display: none;
+  position: relative;
+  top: 10.4%;
+  width: 320px;
+  height: 159px;
+  background: #fff;
+  border: 1px solid black;
+  border-top: none;
+}
+
+.dropdown-list__button_clean {
+  display: none;
+  position: absolute;
+  width: 72px;
+  height: 15px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 0;
+  color: rgba(31, 32, 65, 0.5);
+  background: none;
+}
+
+.dropdown-list__button_apply {
+  display: block;
+  position: absolute;
+  width: 84px;
+  height: 15px;
+  left: 229px;
+  text-transform: uppercase;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  color: #BC9CFF;
+  border: 0;
+  background: none;
+  background: #fff;
+  text-decoration: none;
+}
+
+.controls {
+  display: inline;
+  text-align: right;
+  float: right;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+}
+
+.controls div {
+  display: inline-block;
+  padding: 0 10px;
+}
+/*# sourceMappingURL=dropdown-visitor.css.map */

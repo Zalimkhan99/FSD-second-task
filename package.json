@@ -1,7 +1,6 @@
 {
-  "name": "FSD-2",
+  "name": "fsd-2",
   "version": "1.0.0",
-  "description": "",
   "main": "index.pug",
   "scripts": {
     "dev": "parcel pages/index.html",
@@ -13,5 +12,17 @@
   "devDependencies": {
     "node-sass": "^4.13.1",
     "parcel-bundler": "^1.12.4"
-  }
+  },
+  "dependencies": {
+    "sass": "^1.26.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zalimkhan99/FSD-second-task.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Zalimkhan99/FSD-second-task/issues"
+  },
+  "homepage": "https://github.com/Zalimkhan99/FSD-second-task#readme",
+  "description": ""
 }
