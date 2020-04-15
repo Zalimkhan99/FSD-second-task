@@ -1,0 +1,29 @@
+meta(charset='utf-8')
+link(rel="stylesheet", href="css/datepicker.min.css" , type="text/css")
+link(rel="stylesheet", href="dropdown-data.css", type="text/css")
+script(src="http://code.jquery.com/jquery-1.8.3.js")
+script(src="js/datepicker.min.js")
+mixin data-range
+    link(rel="stylesheet", href="css/datepicker.min.css" , type="text/css")
+    link(rel="stylesheet", href="dropdown-data.css", type="text/css")   
+    script(src="http://code.jquery.com/jquery-1.8.3.js")
+    script(src="js/datepicker.min.js")
+    
+    input(type="text", class="datepicker-here", data-range="true", data-multiple-dates-separator=" - " , data-position="right top", placeholder='ДД.ММ.ГГГГ-ДД.ММ.ГГГГ')
+    
+    script $('#my-element').data('datepicker')
+
+mixin data-two-range
+    link(rel="stylesheet", href="css/datepicker.min.css" , type="text/css")
+    link(rel="stylesheet", href="dropdown-data.css", type="text/css")
+    script(src="http://code.jquery.com/jquery-1.8.3.js")
+    script(src="js/datepicker.min.js")
+
+    input(type="text", class="start", placeholder='ДД.ММ.ГГГГ' )
+    
+    input(type="text", class="end",  placeholder='ДД.ММ.ГГГГ')
+   
+    script(src="script.js") 
+
++data-two-range
++data-range

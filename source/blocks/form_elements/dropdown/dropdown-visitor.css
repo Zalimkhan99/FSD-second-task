@@ -1,0 +1,224 @@
+@charset "UTF-8";
+/**
+ * Сброс стилей
+ **/
+@import url("https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700|Quicksand:400,700&display=swap");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+}
+
+input {
+  outline: 0;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+  display: block;
+}
+
+/**
+ * Основные стили
+ **/
+body {
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(31, 32, 65, 0.75);
+  text-align: left;
+  font-style: normal;
+  text-transform: none;
+}
+
+.container {
+  min-width: 320px;
+  max-width: 100%;
+  padding: 0 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: Quicksand;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  color: #1F2041;
+  text-align: left;
+  font-style: normal;
+  text-transform: none;
+}
+
+h2 {
+  font-family: Quicksand;
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 24px;
+  color: #1F2041;
+  text-align: left;
+  font-style: normal;
+  text-transform: none;
+}
+
+h3 {
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  color: #1F2041;
+  text-align: left;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+body, p, input {
+  font-family: Montserrat;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(31, 32, 65, 0.75);
+  text-align: left;
+  font-style: normal;
+  text-transform: none;
+}
+
+.dropdown__wrap {
+  position: relative;
+}
+
+.dropdown__text {
+  width: 293px;
+  height: 16px;
+  border: 1px solid rgba(31, 32, 65, 0.25);
+  border-radius: 2px;
+  padding: 12px 13px 15px;
+}
+
+.dropdown__text:hover, .dropdown__text:focus {
+  border: 1px solid rgba(31, 32, 65, 0.5);
+}
+
+.dropdown__icons {
+  position: absolute;
+  padding: 20.5px 15.5px 16px 16px;
+  bottom: 1%;
+  left: 275px;
+}
+
+.dropdown-lists__item {
+  padding: 13px 0 15px 15px;
+}
+
+.dropdown__lists {
+  display: none;
+  position: relative;
+  top: 10.4%;
+  width: 319px;
+  height: 174px;
+  background: #fff;
+  border: 1px solid rgba(31, 32, 65, 0.25);
+  border-top: none;
+  border-radius: 2px;
+}
+
+.dropdown__lists:hover, .dropdown__lists:focus {
+  border: 1px solid rgba(31, 32, 65, 0.5);
+}
+
+.dropdown-lists__button_clean {
+  display: none;
+  position: absolute;
+  width: 84px;
+  height: 15px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 0;
+  color: rgba(31, 32, 65, 0.5);
+  background: none;
+}
+
+.dropdown-lists__button_apply {
+  display: block;
+  position: absolute;
+  width: 84px;
+  height: 15px;
+  left: 220px;
+  text-transform: uppercase;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  color: #BC9CFF;
+  border: 0;
+  background: none;
+  background: #fff;
+  text-decoration: none;
+}
+
+.controls {
+  display: inline;
+  text-align: right;
+  float: right;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+}
+
+.controls div {
+  display: inline-block;
+  padding: 0 10px;
+}
+/*# sourceMappingURL=dropdown-visitor.css.map */

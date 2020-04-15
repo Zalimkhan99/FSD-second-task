@@ -1,0 +1,49 @@
+@import "../../../styles_global/reset";
+@import "../../../styles_global/variables";
+@import "../../../styles_global/fonts";
+@import "../../../styles_global/mixins";
+@import "../../../styles_global/core";
+
+.datepicker-here{
+    
+    @include text-field(266px);
+    background-image: url(svg/expand_more.svg); 
+    background-repeat: no-repeat;
+    background-position: 240px;
+    top: 104.56px;
+    &:hover, &:focus{
+        color: $dark_shade_75;
+        border: 1px solid $dark_shade_50;
+        
+      }
+      
+}
+
+
+.start{
+     
+    @include text-field(150px);
+    background-image: url(svg/expand_more.svg); 
+    background-repeat: no-repeat;
+    background-position: 125px;
+    &:hover, &:focus{
+        color: $dark_shade_75;
+        border: 1px solid $dark_shade_50;
+        
+      }
+}
+
+.end{
+    
+    @include text-field(150px);
+    background-image: url(svg/expand_more.svg); 
+    background-repeat: no-repeat;
+    background-position: 125px;
+    margin-left: 170px;
+    &:hover, &:focus{
+        color: $dark_shade_75;
+        border: 1px solid $dark_shade_50;
+        
+      }
+}
+

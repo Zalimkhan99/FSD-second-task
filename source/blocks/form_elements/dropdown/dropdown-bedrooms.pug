@@ -1,0 +1,44 @@
+
+  
+meta(charset='utf-8')
+mixin dropdown-bedrooms    
+    link(rel='stylesheet', type='text/css', href='dropdown-bedrooms.css')
+    script(src='http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js', type='text/javascript')
+  
+    .dropdown__position
+      .dropdown__name(default='Сколько спален и кроватей?')
+        | Сколько спален и кроватей?
+      img.dropdown-icon(src='svg/expand_more.svg')
+    .dropdown__list
+      .dropdown-list__item(default='2')
+        | Спальни
+        .controls
+          .controls__minus-sleeping
+            | -
+          .sleeping 0
+          .controls__plus-sleeping
+            | +
+      .dropdown-list__item(default='1')
+        | Кровати
+        .controls
+          .controls__minus-bed
+            | -
+          .bed 0
+          .controls__plus-bed
+            | +
+      .dropdown-list__item
+        | Ванные комнаты
+        .controls
+          .controls__minus-bathroom
+            | -
+          .bathroom 0
+          .controls__plus-bathroom
+            | +
+      button.dropdown-list__button_clean(name='clean') очистить
+      button.dropdown-list__button_apply(name='apply') Применить
+    script(type='text/javascript', src='dropdown-bedrooms.js')
+     
++dropdown-bedrooms
+
+
+
